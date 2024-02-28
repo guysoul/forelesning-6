@@ -23,7 +23,7 @@
         const userName = prompt("Hva heter du?");
         localStorage.setItem("name", userName);
 
-        nameTxt.innerHTML = `Ditt navn er ${localStorage.getItem("name")}`;
+        updateName();
       }
 
       function deleteName() {
